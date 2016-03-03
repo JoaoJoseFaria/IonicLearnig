@@ -1,4 +1,4 @@
-angular.module('BookStoreApp', ['ionic', 'BookStoreApp.controllers'])
+angular.module('BookStoreApp', ['ionic', 'BookStoreApp.controllers', 'BookStoreApp.factory'])
 
 .run(['$rootScope', 'AuthFactory',
   function($rootScope, , AuthFactory) {
